@@ -87,9 +87,14 @@ body {
   padding: 2em;
   position: absolute;
   width: 90%;
+  display: none;
 
   background-color: #000;
   border-radius: 6px;
+}
+
+.sales__details [data-state="active"] {
+	display: block;
 }
 
 .sales__details::before {
@@ -156,3 +161,4 @@ body {
 
   text-indent: 100%;
 }
+
