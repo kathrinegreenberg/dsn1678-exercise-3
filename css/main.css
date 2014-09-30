@@ -93,7 +93,7 @@ body {
   border-radius: 6px;
 }
 
-.sales__details [data-state="active"] {
+.sales__details[data-state="active"] {
 	display: block;
 }
 
